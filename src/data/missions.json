@@ -1,0 +1,45 @@
+[
+  {
+    "id": "yanki",
+    "title": "Yanki Istasyonu",
+    "skill": "Anlama",
+    "summary": "Dinleme ve baglamdan anahtar kelime bulma gorevi."
+  },
+  {
+    "id": "kanit",
+    "title": "Kanit Dosyasi",
+    "skill": "Anlama",
+    "summary": "Bilgi ve gorus ifadelerini ayirt etme gorevi."
+  },
+  {
+    "id": "sorgu",
+    "title": "Sorgulama Odasi",
+    "skill": "Sorgulama",
+    "summary": "Kanita dayali soru sorma gorevi."
+  },
+  {
+    "id": "mantik",
+    "title": "Mantik Tesisati Laboratuvari",
+    "skill": "Iletisim",
+    "summary": "Baglaclarla anlam iliskisi kurma gorevi."
+  },
+  {
+    "id": "uretim",
+    "title": "Uretim Atolyesi",
+    "skill": "Uretim",
+    "summary": "Kisa ve kanita dayali duyuru yazma gorevi."
+  },
+  {
+    "id": "hayal",
+    "title": "Hayal Atolyesi",
+    "skill": "Uretim",
+    "summary": "Tema kelimeleriyle yaratici hikaye yazma gorevi."
+  },
+  {
+    "id": "ayna",
+    "title": "Kasif Aynasi",
+    "skill": "Yansitma",
+    "summary": "Ogrenme surecini degerlendirme gorevi."
+  }
+]
+

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="6. sinif Turkce dersi icin harita tabanli kelime ve anlam oyunu.">
+    <title>Kelime Evreni | Kayip Anlamlarin Pesinde</title>
+    <link rel="stylesheet" href="src/styles/themes.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#app">Icerige gec</a>
+    <header class="topbar" aria-label="Uygulama ust bilgisi">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">KE</span>
+        <div>
+          <p class="eyebrow">Kayip Anlamlarin Pesinde</p>
+          <h1>Kelime Evreni</h1>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <output class="score-pill" id="scoreOutput" aria-live="polite">Puan: 0</output>
+        <button class="icon-button" id="themeToggle" type="button" aria-label="Tema degistir">☼</button>
+      </div>
+    </header>
+
+    <main id="app" class="app-shell" tabindex="-1"></main>
+
+    <template id="introTemplate">
+      <section class="intro-grid" aria-labelledby="introTitle">
+        <div class="hero-panel">
+          <p class="eyebrow">6. Sinif Turkce</p>
+          <h2 id="introTitle">Sozcuklerin izini sur, anlam adalarini uyandir.</h2>
+          <p>
+            Bu oyunda dinleyecek, okuyacak, sorgulayacak, baglaclarla mantik kuracak
+            ve kendi metnini ureteceksin. Her gorev Kelime Evreni haritasinda yeni
+            bir istasyonu acar.
+          </p>
+          <form class="start-form" id="startForm">
+            <label for="studentName">Ogrenci adi</label>
+            <input id="studentName" name="studentName" type="text" autocomplete="name" minlength="2" maxlength="40" required placeholder="Adini yaz">
+            <button class="primary-button" type="submit">Haritaya Basla</button>
+          </form>
+        </div>
+        <aside class="brief-panel" aria-label="Oyun ozeti">
+          <h3>Gorev Becerileri</h3>
+          <ul class="skill-list">
+            <li>Anlama</li>
+            <li>Sorgulama</li>
+            <li>Iletisim</li>
+            <li>Uretim</li>
+            <li>Yansitma</li>
+          </ul>
+        </aside>
+      </section>
+    </template>
+
+    <script type="module" src="src/scripts/app.js"></script>
+  </body>
+</html>
+
